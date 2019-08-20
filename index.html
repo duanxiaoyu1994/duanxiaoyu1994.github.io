@@ -105,8 +105,10 @@
     if(!meetDate){
         meetDate="2018-11-24"
     }
-    var word = getQueryStringFn("word") != '' ? getQueryStringFn("word") : '爱你直到永永远远。';
-    var signatureName = getQueryStringFn("signatureName") != '' ? getQueryStringFn("signatureName") : getQueryStringFn("boyName");
+    // var word = getQueryStringFn("word") != '' ? getQueryStringFn("word") : '爱你直到永永远远。';
+    var word ='爱你直到永永远远。';
+    // var signatureName = getQueryStringFn("signatureName") != '' ? getQueryStringFn("signatureName") : getQueryStringFn("boyName");
+    var signatureName ='';
     var meetDateArr = meetDate.split("-");
     $('.boyName').text(boyName);
     $('.girlName').text(girlName);
